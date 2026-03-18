@@ -17,7 +17,7 @@ export default function HomePage() {
   useScrollReveal();
 
   return (
-    <>
+    <><h1>My Portfolio</h1>
       <Navbar />
       <main>
         <Hero />
@@ -27,7 +27,7 @@ export default function HomePage() {
         <Experience />
         <Stats />
         <Contact />
-      </main>
+      </main><></>
       <Footer />
     </>
   );
